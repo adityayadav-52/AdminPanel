@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Chetu Inc</title>
+    @*@Styles.Render("~/Content/css")
+      @Scripts.Render("~/bundles/modernizr")*@
+
+<link href="~/Content/AppCss/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/AppCss/css/metisMenu.min.css" rel="stylesheet" />
+<link href="~/Content/AppCss/css/timeline.css" rel="stylesheet" />
+<link href="~/Content/AppCss/css/startmin.css" rel="stylesheet" />
+<link href="~/Content/AppCss/css/morris.css" rel="stylesheet" />
+<link href="~/Content/AppCss/css/font-awesome.min.css" rel="stylesheet" />
+<link href="~/Content/AppCss/css/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
+
+<link href="~/Content/AppCss/css/dataTables/dataTables.responsive.css" rel="stylesheet" />
+
+
+
+
+</head>
+<body>
+
+    <div id="wrapper">
+
+        @Html.Partial("_LeftNavBar");
+
+
+        @RenderBody()
+
+
+    </div>
+    <script src="~/Scripts/AppJs/js/jquery.min.js"></script>
+    <script src="~/Scripts/AppJs/js/bootstrap.min.js"></script>
+    <script src="~/Scripts/AppJs/js/metisMenu.min.js"></script>
+    <script src="~/Scripts/AppJs/js/raphael.min.js"></script>
+
+    <script src="~/Scripts/AppJs/js/dataTables/jquery.dataTables.min.js"></script>
+
+    <script src="~/Scripts/AppJs/js/dataTables/dataTables.bootstrap.min.js"></script>
+
+
+    
+
+
+    <script src="~/Scripts/AppJs/js/startmin.js"></script>
+
+
+      @*@Scripts.Render("~/bundles/jquery")
+      @Scripts.Render("~/bundles/bootstrap")
+      @RenderSection("scripts", required: false)*@
+</body>
+</html>
